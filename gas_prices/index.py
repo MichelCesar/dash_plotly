@@ -1,11 +1,13 @@
+
+#import das bibliotecas do projeto
+
 import dash
-from dash import html, dcc, Input, Output, State
 import dash_bootstrap_components as dbc
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import pandas as pd
+from dash import Input, Output, State, dcc, html
 from dash_bootstrap_templates import ThemeSwitchAIO
-
 
 # ========= App ============== #
 FONT_AWESOME = ["https://use.fontawesome.com/releases/v5.10.2/css/all.css"]
